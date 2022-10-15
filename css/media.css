@@ -1,0 +1,108 @@
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+      /*header start*/
+
+      /*logo*/
+      .logo {
+        width: 165px;
+    }
+   .menu ul li a {
+    margin-bottom: 10px;
+    padding: 0px 13px !important;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000 !important;
+   }
+
+   /*banner start*/
+
+   .b_img {
+      padding: 0 25px;
+  }
+  .b_text{
+   text-align: center;
+  }
+
+  .b_text h1 {
+  
+   font-size: 30px;
+   line-height: 50px;
+ }
+
+.b_text p {
+   margin-bottom: 22px;
+ }
+}
+    
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+     /*header start*/
+     .menu ul li a {
+        margin-bottom: 10px;
+        padding: 0px 13px !important;
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000 !important;
+       }
+
+       /*banner start*/
+   .b_img {
+      text-align: center;
+      padding: 0 25px;
+  }
+
+  .b_text{
+   text-align: center;
+  }
+
+  .b_text h1 {
+  
+   font-size: 33px;
+   line-height: 52px;
+  
+}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px){ 
+   /*header start*/
+   .menu ul li a {
+    margin-bottom: 10px;
+    padding: 0px 13px !important;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000 !important;
+   }
+
+   /*banner start*/
+   .b_img {
+      padding: 0 30px;
+  }
+
+  .b_text {
+   text-align: center;
+   padding: 40px;
+}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    
+}
+/* Extra Large devices (desktops, 992px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+    
+}
+
+/*Extra Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) {
+
+}
